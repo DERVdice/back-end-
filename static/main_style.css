@@ -1,0 +1,71 @@
+.background{
+    background-color: #F7F6F6;
+    width: 100%;
+    height: max-content;
+}
+
+.header{
+    background-color: #F7F6F6;
+    position: fixed;
+    margin-left: -10px;
+    margin-right: -20px;
+    margin-top: -10px;
+    height: 75px;
+    width: 101%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.header_logo{
+    background-image: url("img/Logo/logo.png");
+    background-size: 300px 50px;
+    height: 50px;
+    width: 300px;
+    margin-left: 30%;
+    margin-top: 13px;
+}
+
+.text_medium{
+    font-family: Century, serif;
+    font-size: 17pt;
+    text-decoration-color: black;
+    padding: 0 0 0 0;
+}
+
+.content{
+    height: max-content;
+    padding: 100px 0 0 0;
+    margin-left: 31.25%;
+    margin-right: 31.25%;
+}
+
+.new_content_block{
+    margin-top: 75px;
+}
+
+.img_button{
+    background-size: 350px 390px;
+    height: 100%;
+    width: 100%;
+}
+
+.left_button_container{
+    float: left;
+    height: 100%;
+    width: 49%;
+    transition: ease-in-out;
+}
+
+.right_button_container{
+    float: right;
+    height: 100%;
+    width: 49%;
+    transition: ease-in-out;
+}
+
+.github:hover{
+    content: url("img/Buttons/button_github_selected.png");
+}
+
+.vk:hover{
+    content: url("img/Buttons/button_vk_selected.png");
+}
